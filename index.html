@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+
+
+
+  <style>
+    /* Custom styles for the navigation bar */
+    .navbar {
+      background-color: #333;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+      margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #ffc107;
+    }
+
+    img {
+      width: 250px
+    }
+
+    .about-container {
+      /* width: 400px; */
+      /* height: 400px; */
+      border-radius: 10px;
+      border: 2px solid #333;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      /* justify-content: center; */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-flex-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .about-flex-container img {
+      margin-right: 10px;
+    }
+
+    .about-flex-container p {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="container-fluid py-5">
+    <div class="container about-container">
+      <div class="about-content">
+        <h3>ABOUT ME</h3>
+        <div class="about-flex-container">
+          <img src="Edmon_Garcia.png" alt="Profile Image">
+          <div>
+            <p>
+              I am a highly skilled front-end developer with a strong understanding of front-end development, UI design,
+              and
+              analytical skills. I have a passion for entrepreneurship and I am currently pursuing my Bachelor's degree
+              in
+              Entrepreneurship.
+            </p>
+
+            <p>
+              <b>I am a highly skilled front-end developer with expertise in the following technologies:</b>
+            <ul>
+              <li>
+                - HTML5
+              </li>
+              <li>
+                - CSS3
+              </li>
+              <li>
+                - JavaScript
+              </li>
+              <li>
+                - React.js
+              </li>
+              <li>
+                - Firebase
+              </li>
+              <li>
+                - Sass
+              </li>
+              <li>
+                - Next.js
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container about-container">
+      <h3>ABOUT ME</h3>
+      <img src="Edmon_Garcia.png" alt="Profile Image">
+      <p>
+        I am a highly skilled front-end developer with a strong understanding of front-end development, UI design, and
+        analytical skills. I have a passion for entrepreneurship and I am currently pursuing my Bachelor's degree in
+        Entrepreneurship.
+      </p>
+
+      
+    </div> -->
+  </section>
+
+
+
+  <!-- Main Content -->
+  <section id="experience" class="container-fluid py-5">
+    <div class="container">
+      <h1>Experience</h1>
+      <!-- Add your experience content here -->
+    </div>
+  </section>
+
+  <section id="projects" class="container-fluid py-5">
+    <div class="container">
+      <h1>Projects</h1>
+      <!-- Add your projects content here -->
+    </div>
+  </section>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="particles.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.js loaded');
+    });
+  </script>
+</body>
+
+</html>
